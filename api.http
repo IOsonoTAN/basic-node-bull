@@ -1,0 +1,7 @@
+POST http://localhost:3000/issue
+Content-Type: application/json
+
+{
+  "jobId": "A1",
+  "callbackUrl": "http://localhost:3000/callback"
+}
